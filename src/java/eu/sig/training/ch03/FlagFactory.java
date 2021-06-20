@@ -21,7 +21,6 @@ public class FlagFactory {
         FLAGS.put(Nationality.RUSSIA, new RussianFlag());
     }
 
-    // tag::getFlag[]
     public List<Color> getFlagColors(Nationality nationality) {
         Flag flag = FLAGS.get(nationality);
         if (flag == null) {
@@ -29,7 +28,4 @@ public class FlagFactory {
         }
         return flag.getColors();
     }
-    // end::getFlag[]
-
-
 }

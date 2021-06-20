@@ -1,6 +1,5 @@
 package eu.sig.training.ch04;
 
-// tag::CheckingAccount[]
 public class CheckingAccount extends Account{
     private int transferLimit = 100;
 
@@ -13,4 +12,3 @@ public class CheckingAccount extends Account{
         return super.makeTransfer(counterAccount, amount);
     }
 }
-// end::CheckingAccount[]

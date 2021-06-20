@@ -1,6 +1,5 @@
 package eu.sig.training.ch04;
 
-// tag::SavingsAccount[]
 public class SavingsAccount extends Account {
     private CheckingAccount registeredCounterAccount;
 
@@ -13,4 +12,3 @@ public class SavingsAccount extends Account {
         }
     }
 }
-// end::SavingsAccount[]
